@@ -5,3 +5,15 @@ Using three classification algorithm, classifier models have been build. Followi
 1. Naive Bayes
 2. SVM
 3. Decision Tree
+
+
+Data Set :
+* Training Set : 15820 emails
+* Testing Set : 1758 emails
+
+Classifier | Paramteters | Training Time | Prediction Time | Accuracy
+------- | ----------- | ----------- | ---------- | ----------- |
+Naive Bayes | Default| 1.351 s | 0.084 s | 97.33%
+SVM | kernel="rbf", C=10000| 121.047 s  | 12.255 s | 99.08%
+Decision Tree | min_samples_split=40| 51.661 s | 0.015 s| 97.72.04%
+
