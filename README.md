@@ -15,7 +15,7 @@ Classifier | Paramteters | Training Time | Prediction Time | Accuracy
 ------- | ----------- | ----------- | ---------- | ----------- |
 Naive Bayes | Default| 1.351 s | 0.084 s | 97.33%
 SVM | kernel="rbf", C=10000| 121.047 s  | 12.255 s | 99.08%
-Decision Tree | min_samples_split=40| 51.661 s | 0.015 s| 97.72.04%
+Decision Tree | min_samples_split=40| 51.661 s | 0.015 s| 97.72%
 
 ### Naive Bayes
 One particular feature of Naive Bayes is that it’s a good algorithm for working with text classification. When dealing with text, it’s very common to treat each unique word as a feature, and since the typical person’s vocabulary is many thousands of words, this makes for a large number of features. The relative simplicity of the algorithm and the independent features assumption of Naive Bayes make it a strong performer for classifying texts.
